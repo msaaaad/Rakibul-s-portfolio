@@ -41,7 +41,7 @@ body {
   }
 
   .btn-primary {
-    @apply px-8 py-4 bg-gold text-ink font-mono text-xs tracking-widest uppercase rounded-full hover:bg-yellow-300 transition-colors duration-300 font-medium cursor-pointer;
+    @apply px-8 py-4 bg-paper text-white font-mono text-xs tracking-widest uppercase rounded-full border border-paper hover:bg-white hover:text-paper hover:border-paper transition-all duration-300 font-medium cursor-pointer;
   }
 
   .btn-outline {

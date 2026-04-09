@@ -29,7 +29,7 @@ const scrollTo = (href: string) => {
     >
       <!-- Logo -->
       <a href="#" class="font-display text-xl font-bold" @click.prevent="scrollTo('#hero')">
-        <span class="text-paper">Rakibul</span><span class="text-gold">.</span>
+        <span class="text-paper">Rakib</span>
       </a>
 
       <!-- Desktop nav -->

@@ -1,6 +1,6 @@
 # Rakibul Hasan — Portfolio
 
-A beautiful, production-grade portfolio website for Muhammad Rakibul Hasan diyen, UI/UX Designer.
+A beautiful, production-grade portfolio website for Muhammad Rakibul Hasan, UI/UX Designer.
 
 ## Tech Stack
 - **Vue 3** with Composition API & `<script setup>`

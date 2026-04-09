@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ['"Playfair Display"', 'serif'],
+        display: ['"DM Sans"', 'sans-serif'],
         sans: ['"DM Sans"', 'sans-serif'],
         mono: ['"DM Mono"', 'monospace'],
       },

@@ -57,7 +57,7 @@ onMounted(() => {
         <a v-for="[icon, label, value, href] in [
           ['✉', 'Email', 'hello.rakibulh@gmail.com', 'mailto:hello.rakibulh@gmail.com'],
           ['☎', 'Phone', '+880 1688 251829', 'tel:+8801688251829'],
-          ['🔗', 'LinkedIn', 'Muhammad Rakibul Hasan', 'https://linkedin.com/in/muhammad-rakibul-hasan'],
+          ['🔗', 'LinkedIn', 'Muhammad Rakibul Hasan', 'https://www.linkedin.com/in/mrakibux'],
         ]" :key="label" :href="href" target="_blank"
            class="flex items-center gap-4 p-5 rounded-2xl border border-white/5 bg-white/[0.02] hover:border-gold/30 hover:bg-gold/5 transition-all duration-300 group">
           <span class="text-xl">{{ icon }}</span>

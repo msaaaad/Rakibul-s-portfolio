@@ -59,7 +59,6 @@ onMounted(() => {
       <div class="hidden-init" :class="visible ? 'animate-fade-up animate-delay-300' : ''">
         <div class="relative p-8 rounded-3xl border border-gold/15 bg-gradient-to-br from-gold/5 to-ink/80">
           <!-- Top accent -->
-          <div class="absolute top-0 left-8 right-8 gold-line-h" />
 
           <!-- Avatar + name -->
           <div class="flex items-center gap-5 mb-8">
@@ -67,7 +66,7 @@ onMounted(() => {
               MR
             </div>
             <div>
-              <p class="font-display text-xl font-semibold text-paper">Muhammad Rakibul Hasan diyen</p>
+              <p class="font-display text-xl font-semibold text-paper">Muhammad Rakibul Hasan</p>
               <p class="font-mono text-xs tracking-wider mt-1 text-gold">UI / UX Designer</p>
             </div>
           </div>
@@ -89,11 +88,11 @@ onMounted(() => {
 
           <!-- Social links -->
           <div class="mt-6 flex gap-3">
-            <a href="https://www.linkedin.com/in/muhammad-rakibul-hasan" target="_blank"
+            <a href="https://www.linkedin.com/in/mrakibux" target="_blank"
                class="flex-1 py-2.5 text-center font-mono text-xs tracking-wider uppercase rounded-full border border-gold/20 text-gold hover:bg-gold/10 transition-all duration-300">
               LinkedIn
             </a>
-            <a href="https://www.behance.net" target="_blank"
+            <a href="https://www.behance.net/mrakibux" target="_blank"
                class="flex-1 py-2.5 text-center font-mono text-xs tracking-wider uppercase rounded-full border border-gold/20 text-gold hover:bg-gold/10 transition-all duration-300">
               Behance
             </a>

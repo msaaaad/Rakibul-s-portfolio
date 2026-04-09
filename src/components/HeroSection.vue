@@ -45,7 +45,7 @@ const scrollToWork = () => document.querySelector('#work')?.scrollIntoView({ beh
 
       <!-- Bio -->
       <p class="max-w-xl text-lg leading-relaxed text-muted hidden-init" :class="visible ? 'animate-fade-up animate-delay-400' : ''">
-        Hi, I'm <span class="text-paper font-medium">Muhammad Rakibul Hasan diyen</span> — a product-focused UI/UX designer
+        Hi, I'm <span class="text-paper font-medium">Muhammad Rakibul Hasan</span> — a product-focused UI/UX designer
         with a passion for turning complex problems into elegant, user-centered solutions.
       </p>
 
