@@ -12,12 +12,12 @@ export default {
         mono: ['"DM Mono"', 'monospace'],
       },
       colors: {
-        ink: '#0e0e0e',
-        paper: '#f5f0e8',
-        gold: '#c8a96e',
-        'gold-dim': '#a88a50',
-        muted: '#9e9792',
-        dim: '#6b6560',
+        ink: '#ffffff',
+        paper: '#030C27',
+        gold: '#030C27',
+        'gold-dim': '#02091e',
+        muted: '#1a2a4a',
+        dim: '#2a3a5a',
       },
       animation: {
         'fade-up': 'fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
@@ -40,8 +40,8 @@ export default {
           '100%': { transform: 'rotate(360deg)' },
         },
         pulseGlow: {
-          '0%, 100%': { boxShadow: '0 0 8px rgba(200,169,110,0.3)' },
-          '50%': { boxShadow: '0 0 24px rgba(200,169,110,0.6)' },
+          '0%, 100%': { boxShadow: '0 0 8px rgba(3, 12, 39, 0.2)' },
+          '50%': { boxShadow: '0 0 24px rgba(3, 12, 39, 0.4)' },
         },
         marquee: {
           '0%': { transform: 'translateX(0)' },

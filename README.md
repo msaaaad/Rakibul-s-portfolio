@@ -1,6 +1,6 @@
 # Rakibul Hasan — Portfolio
 
-A beautiful, production-grade portfolio website for Kazi Md. Rakibul Hasan, UI/UX Designer.
+A beautiful, production-grade portfolio website for Muhammad Rakibul Hasan diyen, UI/UX Designer.
 
 ## Tech Stack
 - **Vue 3** with Composition API & `<script setup>`
@@ -41,7 +41,7 @@ public/
 The CV PDF is served from `public/rakibul-hasan-cv.pdf`. Replace it with the latest version as needed.
 
 ## Design
-- Dark theme with warm gold (`#c8a96e`) accent
+- Dark theme with warm gold (`#030C27`) accent
 - Playfair Display (serif) + DM Sans + DM Mono
 - Subtle grid background, rotating SVG rings, animated marquee
 - Scroll-triggered entrance animations via IntersectionObserver

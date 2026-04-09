@@ -23,8 +23,8 @@ onMounted(() => {
         <!-- Decorative ring -->
         <div class="absolute top-0 right-0 w-96 h-96 opacity-10 pointer-events-none">
           <svg class="animate-spin-slow" viewBox="0 0 400 400" fill="none">
-            <circle cx="200" cy="200" r="190" stroke="#c8a96e" stroke-width="1" stroke-dasharray="8 12"/>
-            <circle cx="200" cy="200" r="130" stroke="#c8a96e" stroke-width="0.5" stroke-dasharray="4 8"/>
+            <circle cx="200" cy="200" r="190" stroke="#030C27" stroke-width="1" stroke-dasharray="8 12"/>
+            <circle cx="200" cy="200" r="130" stroke="#030C27" stroke-width="0.5" stroke-dasharray="4 8"/>
           </svg>
         </div>
 
@@ -44,7 +44,7 @@ onMounted(() => {
             <a href="mailto:hello.rakibulh@gmail.com" class="btn-primary">Say Hello ✉</a>
             <a href="/rakibul-hasan-cv.pdf" download class="btn-outline">
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M7 1v9M4 7l3 4 3-4M1 13h12" stroke="#c8a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7 1v9M4 7l3 4 3-4M1 13h12" stroke="#030C27" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
               Download CV
             </a>

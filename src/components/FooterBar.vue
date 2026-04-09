@@ -5,7 +5,7 @@ const year = new Date().getFullYear()
 <template>
   <footer class="py-10 px-6 border-t border-gold/10">
     <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p class="font-mono text-xs tracking-widest uppercase text-dim">© {{ year }} Kazi Md. Rakibul Hasan</p>
+      <p class="font-mono text-xs tracking-widest uppercase text-dim">© {{ year }} Muhammad Rakibul Hasan diyen</p>
       <p class="font-mono text-xs text-dim/60">UI / UX Designer · Dhaka, Bangladesh</p>
       <div class="flex items-center gap-4">
         <a href="https://linkedin.com/in/muhammad-rakibul-hasan" target="_blank"

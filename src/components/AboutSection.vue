@@ -64,10 +64,10 @@ onMounted(() => {
           <!-- Avatar + name -->
           <div class="flex items-center gap-5 mb-8">
             <div class="w-16 h-16 rounded-2xl flex items-center justify-center font-display text-2xl font-bold text-gold border border-gold/30 bg-gold/10 animate-pulse-glow">
-              KR
+              MR
             </div>
             <div>
-              <p class="font-display text-xl font-semibold text-paper">Kazi Md. Rakibul Hasan</p>
+              <p class="font-display text-xl font-semibold text-paper">Muhammad Rakibul Hasan diyen</p>
               <p class="font-mono text-xs tracking-wider mt-1 text-gold">UI / UX Designer</p>
             </div>
           </div>

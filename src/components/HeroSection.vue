@@ -13,11 +13,11 @@ const scrollToWork = () => document.querySelector('#work')?.scrollIntoView({ beh
     <div class="absolute inset-0 grid-bg pointer-events-none" aria-hidden="true" />
 
     <!-- Rotating rings -->
-    <div class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/3 opacity-10 pointer-events-none hidden lg:block">
+    <div class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/3 opacity-15 pointer-events-none hidden lg:block">
       <svg class="animate-spin-slow" width="600" height="600" viewBox="0 0 600 600" fill="none">
-        <circle cx="300" cy="300" r="290" stroke="#c8a96e" stroke-width="1" stroke-dasharray="8 16" />
-        <circle cx="300" cy="300" r="220" stroke="#c8a96e" stroke-width="0.5" />
-        <circle cx="300" cy="300" r="150" stroke="#c8a96e" stroke-width="1" stroke-dasharray="4 8" />
+        <circle cx="300" cy="300" r="290" stroke="#030C27" stroke-width="1" stroke-dasharray="8 16" />
+        <circle cx="300" cy="300" r="220" stroke="#030C27" stroke-width="0.5" />
+        <circle cx="300" cy="300" r="150" stroke="#030C27" stroke-width="1" stroke-dasharray="4 8" />
       </svg>
     </div>
 
@@ -45,7 +45,7 @@ const scrollToWork = () => document.querySelector('#work')?.scrollIntoView({ beh
 
       <!-- Bio -->
       <p class="max-w-xl text-lg leading-relaxed text-muted hidden-init" :class="visible ? 'animate-fade-up animate-delay-400' : ''">
-        Hi, I'm <span class="text-paper font-medium">Kazi Md. Rakibul Hasan</span> — a product-focused UI/UX designer
+        Hi, I'm <span class="text-paper font-medium">Muhammad Rakibul Hasan diyen</span> — a product-focused UI/UX designer
         with a passion for turning complex problems into elegant, user-centered solutions.
       </p>
 
@@ -54,7 +54,7 @@ const scrollToWork = () => document.querySelector('#work')?.scrollIntoView({ beh
         <button class="btn-primary" @click="scrollToWork">View Work</button>
         <a href="/rakibul-hasan-cv.pdf" download class="btn-outline">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-            <path d="M7 1v9M4 7l3 4 3-4M1 13h12" stroke="#c8a96e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7 1v9M4 7l3 4 3-4M1 13h12" stroke="#030C27" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
           Download CV
         </a>
@@ -72,7 +72,7 @@ const scrollToWork = () => document.querySelector('#work')?.scrollIntoView({ beh
     <!-- Scroll indicator -->
     <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
       <span class="font-mono text-xs tracking-widest uppercase text-dim">Scroll</span>
-      <div class="w-px h-12" style="background: linear-gradient(to bottom, #c8a96e, transparent);" />
+      <div class="w-px h-12" style="background: linear-gradient(to bottom, #030C27, transparent);" />
     </div>
   </section>
 </template>

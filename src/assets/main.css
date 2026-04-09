@@ -5,27 +5,27 @@
 @tailwind utilities;
 
 :root {
-  --ink: #0e0e0e;
-  --paper: #f5f0e8;
-  --gold: #c8a96e;
-  --muted: #9e9792;
-  --dim: #6b6560;
-  --border-gold: rgba(200, 169, 110, 0.2);
+  --ink: #ffffff;
+  --paper: #030C27;
+  --gold: #030C27;
+  --muted: #1a2a4a;
+  --dim: #2a3a5a;
+  --border-gold: rgba(3, 12, 39, 0.2);
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
 body {
-  background-color: #0e0e0e;
-  color: #f5f0e8;
+  background-color: #ffffff;
+  color: #030C27;
   font-family: 'DM Sans', sans-serif;
   overflow-x: hidden;
 }
 
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: #0e0e0e; }
-::-webkit-scrollbar-thumb { background: #c8a96e; border-radius: 2px; }
+::-webkit-scrollbar-thumb { background: #030C27; border-radius: 2px; }
 
 @layer components {
   .tag-pill {
@@ -61,20 +61,20 @@ body {
 
 .grid-bg {
   background-image: 
-    linear-gradient(rgba(200,169,110,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(200,169,110,0.04) 1px, transparent 1px);
+    linear-gradient(rgba(3, 12, 39, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(3, 12, 39, 0.04) 1px, transparent 1px);
   background-size: 60px 60px;
 }
 
 .mesh-hero {
   background: 
-    radial-gradient(ellipse 80% 60% at 15% 30%, rgba(200,169,110,0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 80% at 85% 80%, rgba(200,169,110,0.04) 0%, transparent 50%),
-    #0e0e0e;
+    radial-gradient(ellipse 80% 60% at 15% 30%, rgba(3, 12, 39, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 80% at 85% 80%, rgba(3, 12, 39, 0.04) 0%, transparent 50%),
+    #ffffff;
 }
 
 .gold-line-h {
   height: 1px;
-  background: linear-gradient(90deg, #c8a96e, transparent);
+  background: linear-gradient(90deg, #030C27, transparent);
   opacity: 0.4;
 }
