@@ -75,7 +75,7 @@ const delayClass = (i: number) => `animate-delay-${(i + 1) * 100}`
               <p class="font-mono text-xs mt-1 text-dim">Ostad · 2023 · Credential ID: C6132</p>
             </div>
           </div>
-          <a href="#" class="flex items-center gap-2 px-5 py-2.5 font-mono text-xs tracking-widest uppercase rounded-full border border-gold/30 text-gold hover:bg-gold/10 transition-all duration-300">
+          <a href="https://drive.google.com/file/d/14-ZQYaxuJkVujnA7yIgTq6_G1GsFNyBl/view?usp=drivesdk" class="flex items-center gap-2 px-5 py-2.5 font-mono text-xs tracking-widest uppercase rounded-full border border-gold/30 text-gold hover:bg-gold/10 transition-all duration-300">
             View Certificate ↗
           </a>
         </div>
